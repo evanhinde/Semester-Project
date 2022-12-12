@@ -1,0 +1,44 @@
+@import url(./reset.css);
+
+nav ul {
+    display: flex;
+    justify-content: 
+    space-around;
+    background: orange;
+}
+
+nav il {
+    padding: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+main {
+    background-color: black;
+}
+
+header {
+    color: orange;
+    font-size: 4em;
+}
+
+p {
+    color: orange;
+}
+
+footer {
+    color: orange;
+}
+
+img {
+    height: 20em;
+    width: 80%;
+}
+

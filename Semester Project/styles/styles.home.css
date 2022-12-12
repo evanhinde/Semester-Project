@@ -1,0 +1,84 @@
+@import url(./reset.css);
+
+/*Main Nav*/
+body > nav ul {
+    display: flex;
+    justify-content: 
+    space-around;
+    background: orange;
+}
+
+body > nav il {
+    padding: 1em;
+}
+
+body > nav a {
+    text-decoration: none;
+    color: black;
+}
+
+body > nav a:hover {
+    color: blue;
+}
+
+/*HEADER*/
+body > header {
+    height: 300px;
+    background: url(../images/sophie-louisnard-048VW0nu_Sk-unsplash.jpg);
+    background-size: cover;
+    background-position: 
+    center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: orange;
+}
+
+body > header h1 {
+    font-size: 3.4em;
+}
+body > header h2 {
+    font-size: 2.1em;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: lightsteelblue;
+}
+
+/*MAIN*/
+main {
+    background: url(../images/math-xMfp5hVmJVw-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 2;
+}
+
+article {
+    width: 100%;
+    height: 10em;
+    font-size: 3em;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+/*FOOTER*/
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1em;
+}
